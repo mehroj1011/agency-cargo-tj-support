@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Поддержка — Создание приложений | Agency Cargo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #faf9f7;
+      --card: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --accent: #c53f3f;
+      --accent-soft: rgba(197, 63, 63, 0.12);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Manrope', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 5vw, 40px);
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .tagline {
+      font-size: 17px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 24px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    .card p:last-child { margin-bottom: 0; }
+    .email-block {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      padding: 14px 20px;
+      background: var(--accent-soft);
+      border-radius: 14px;
+      border: 1px solid rgba(197, 63, 63, 0.25);
+    }
+    .email-block a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .email-block a:hover { text-decoration: underline; }
+    .contact-note {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+    ul {
+      margin: 12px 0 0 20px;
+      color: var(--muted);
+    }
+    li { margin-bottom: 6px; }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Поддержка и разработка приложений</h1>
+      <p class="tagline">Поможем создать любое приложение — красиво и профессионально</p>
+    </header>
+
+    <div class="card">
+      <h2>Связаться с нами</h2>
+      <p>По вопросам приложения Agency Cargo, доставки или разработки под заказ — напишите на почту. Ответим в ближайшее время.</p>
+      <div class="email-block">
+        <span aria-hidden="true">✉️</span>
+        <a href="mailto:support@agencycargo.tj">support@agencycargo.tj</a>
+      </div>
+      <p class="contact-note">Telegram: <strong>@agencycargotj1</strong> · Instagram: <strong>@agency.cargo.tj</strong></p>
+    </div>
+
+    <div class="card">
+      <h2>Разработка приложений</h2>
+      <p>Мы помогаем воплотить вашу идею в современное приложение:</p>
+      <ul>
+        <li>iOS и Android приложения под ключ</li>
+        <li>Красивый и удобный интерфейс</li>
+        <li>Интеграция с серверами, оплатой, уведомлениями</li>
+        <li>Поддержка и доработки после запуска</li>
+      </ul>
+      <p>Опишите задачу на <a href="mailto:support@agencycargo.tj" style="color: var(--accent); font-weight: 600;">support@agencycargo.tj</a> — обсудим сроки и стоимость.</p>
+    </div>
+
+    <footer>
+      Agency Cargo · Поддержка и разработка
+    </footer>
+  </div>
+</body>
+</html>
